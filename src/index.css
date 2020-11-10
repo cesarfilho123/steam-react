@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.border-gray{
+  border-right: 1px solid #4b4a4a!important;
+  min-height: 27px;
+  max-height: 27px;
+  height: 27px!important;
+}
+.btn-steam-green{
+  background: transparent;
+  border-color:#C0E35D !important;
+  color: #C0E35D !important;
+}

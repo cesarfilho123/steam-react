@@ -7,3 +7,13 @@
 .navbar-light .navbar-nav .nav-link {
     color:#fff !important;
 }
+.c-avatar-user img{
+    max-width: 37px;
+}
+
+.icon-bag{
+    font-size: 27px;
+}
+.icon-search{
+    font-size: 21px;
+}

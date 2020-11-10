@@ -1,5 +1,8 @@
 import React from 'react';
-import  './Header.css';
+import { HiOutlineShoppingBag } from 'react-icons/hi';
+import { BsSearch } from 'react-icons/bs';
+import { FaSteam } from 'react-icons/fa';
+import './Header.css';
 // import { Container } from './styles';
 
 function Header() {
@@ -7,7 +10,7 @@ function Header() {
         <>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <a className="navbar-brand" href="/">
-                    <img src="/images/logo.png" alt="Logo" className="img-fluid logo"/>
+                    <img src="/images/logo.png" alt="Logo" className="img-fluid logo" />
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -41,10 +44,26 @@ function Header() {
                             <a className="nav-link disabled" href="a">Sobre</a>
                         </li>
                     </ul>
-                    <form className="form-inline my-2 my-lg-0">
-                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+                    <div className="container-user-login mr-4">
+                        <div className="c-avatar-user d-flex align-items-center ">
+                            <img src="/images/batman.png" alt="Bruce Wayne" className="img-fluid" />
+                            <h6 className="pl-2 mt-2 text-white">
+                                Bruce Wayne
+                            </h6>
+                        </div>
+
+                    </div>
+                    <div className="mr-4">
+                        <HiOutlineShoppingBag className="text-white icon-bag" />
+                    </div>
+                    <div className="mr-4">
+                        <BsSearch className="text-white icon-search" />
+                    </div>
+                    <div className="">
+                        <button className="btn btn-steam-green">
+                            Get <FaSteam />
+                        </button>
+                    </div>
                 </div>
             </nav>
         </>
