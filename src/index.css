@@ -22,3 +22,9 @@ code {
   border-color:#C0E35D !important;
   color: #C0E35D !important;
 }
+.section-hero{
+  height: 60vh;
+  background: linear-gradient( #342E32 40%,  #2C252D 90%);
+  display: flex;
+  align-items: center;
+}
