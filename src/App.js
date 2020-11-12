@@ -1,14 +1,18 @@
 import Header from './components/Header/Header';
 import './index.css';
 import Slider from "react-slick";
+import SampleNextArrow from './components/NextArrow/NextArrow';
+import SamplePrevArrow from './components/PrevArrow/PrevArrow';
+
 
 function App() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
   return (
     

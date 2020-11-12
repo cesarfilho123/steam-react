@@ -28,3 +28,9 @@ code {
   display: flex;
   align-items: center;
 }
+.slick-next:before{
+  content: none !important;
+}
+.slick-prev:before{
+  content: none !important;
+}
