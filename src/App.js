@@ -3,7 +3,7 @@ import './index.css';
 import Slider from "react-slick";
 import SampleNextArrow from './components/NextArrow/NextArrow';
 import SamplePrevArrow from './components/PrevArrow/PrevArrow';
-
+import ItemCarouselDestaque from './components/ItemCarouselDestaque/ItemCarouselDestaque';
 
 function App() {
   const settings = {
@@ -19,13 +19,11 @@ function App() {
     <>
       <Header/>
       <section className="section-hero">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+        <div className="container-fluid">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
               <Slider {...settings}>
-                  <div >
-                    a
-                  </div>
+                  <ItemCarouselDestaque />
                   <div>
                     a
                   </div>

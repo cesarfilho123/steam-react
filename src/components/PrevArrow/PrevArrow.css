@@ -2,3 +2,6 @@
     font-size: 60px;
     color:white;
 }
+.slick-prev{
+    left: -62px !important;
+}
