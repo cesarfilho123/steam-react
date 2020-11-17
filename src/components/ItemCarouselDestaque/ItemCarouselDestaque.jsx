@@ -6,19 +6,19 @@ import { FiShoppingBag } from 'react-icons/fi';
 import { AiOutlineHeart,AiFillApple,AiFillWindows } from 'react-icons/ai';
 // import { Container } from './styles';
 
-function ItemCarouselDestaque() {
+function ItemCarouselDestaque(props) {
   return (
       <>
         <div className="container-item d-flex">
             <div>
-                <img src="/images/games/witcher.png" alt="" className="img-fluid img-carousel"/>
+                <img src={props.image} alt="" className="img-fluid img-carousel"/>
             </div>
             <div className="pl-3 mt-4">
                 <h6 className="tx-primary">
                     <FaCrown className="h5 icon-crown"/> Top Seller
                 </h6>
                 <h3 className="text-white">
-                    The Witcher 3 : Wild Hunt - Game of the Year Edition
+                    {props.title}
                 </h3>
                 <div className="d-flex descriptions mt-4 align-items-center">
                     <span>
@@ -37,9 +37,9 @@ function ItemCarouselDestaque() {
                         Rich
                     </span>
                 </div>
-                <div className="p-bottom col-1">
+                <div className="p-bottom content-info">
                     <h5 className="text-white">
-                        $ 39.00
+                        $ {props.value}
                     </h5>
                     <div className="d-flex justify-content-between ">
                         <div>
@@ -52,11 +52,11 @@ function ItemCarouselDestaque() {
                             <AiFillWindows className="icon-default" />
                             <AiFillApple className="icon-default" />
                         </div>
-                        <div>
+                        {/* <div>
                             <span className="text-white span-avaliacao">
                                 <BiHappyAlt /> Very Positive
                             </span>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
