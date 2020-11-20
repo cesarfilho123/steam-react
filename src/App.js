@@ -65,6 +65,15 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="section-multigames">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-12">
+                  aaaa
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

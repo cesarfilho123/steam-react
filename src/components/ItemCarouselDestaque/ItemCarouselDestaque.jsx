@@ -1,7 +1,7 @@
 import React from 'react';
 import './ItemCarouselDestaque.css';
 import { FaCrown } from 'react-icons/fa';
-import { BiHappyAlt } from 'react-icons/bi';
+// import { BiHappyAlt } from 'react-icons/bi';
 import { FiShoppingBag } from 'react-icons/fi';
 import { AiOutlineHeart,AiFillApple,AiFillWindows } from 'react-icons/ai';
 // import { Container } from './styles';
