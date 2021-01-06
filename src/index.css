@@ -5,38 +5,47 @@ body {
     sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
+  background: #2c252e !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.border-gray{
-  border-right: 1px solid #4b4a4a!important;
+
+.border-gray {
+  border-right: 1px solid #4b4a4a !important;
   min-height: 27px;
   max-height: 27px;
-  height: 27px!important;
+  height: 27px !important;
 }
-.btn-steam-green{
+
+.btn-steam-green {
   background: transparent;
-  border-color:#C0E35D !important;
+  border-color: #C0E35D !important;
   color: #C0E35D !important;
 }
-.section-hero{
+
+.section-hero {
   height: 60vh;
-  background: linear-gradient( #342E32 40%,  #2C252D 90%);
+  background: linear-gradient(#342E32 40%, #2C252D 90%);
   display: flex;
   align-items: center;
 }
-.slick-next:before{
+
+.slick-next:before {
   content: none !important;
 }
-.slick-prev:before{
+
+.slick-prev:before {
   content: none !important;
 }
-.slick-prev, .slick-next{
+
+.slick-prev,
+.slick-next {
   top: 50%;
 }
-.section-multigames{
-  background:#2c252e;
+
+.section-multigames {
+  background: #2c252e;
 }

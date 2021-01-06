@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import SampleNextArrow from './components/NextArrow/NextArrow';
 import SamplePrevArrow from './components/PrevArrow/PrevArrow';
 import ItemCarouselDestaque from './components/ItemCarouselDestaque/ItemCarouselDestaque';
+import ItemGameDestaque from './components/ItemGameDestaque/ItemGameDestaque';
 
 function App() {
   const settings = {
@@ -11,6 +12,14 @@ function App() {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
+  };
+  const settingsGames = {
+    dots: false,
+    infinite: false,
+    slidesToShow: 3.3,
+    slidesToScroll: 3,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />
   };
@@ -69,7 +78,15 @@ function App() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12">
-                  aaaa
+              <h6 className="text-white">
+                Special Offers
+              </h6>
+              <Slider {...settingsGames}>
+                  <ItemGameDestaque />
+                  <ItemGameDestaque />
+                  <ItemGameDestaque />
+                  <ItemGameDestaque />
+              </Slider>
             </div>
           </div>
         </div>
