@@ -1,4 +1,15 @@
 .container-image{
+    position: relative;
     width: 100% !important;
-    height:90vh;
+}
+.container-text{
+    position: absolute;
+    bottom: 40%;
+}
+.title-game{
+    color: #fff !important;
+}
+.btn-hero{
+    background-color: #30acff !important;
+    color: white !important;
 }

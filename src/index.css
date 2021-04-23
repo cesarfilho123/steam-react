@@ -51,7 +51,7 @@ code {
   background: #152840;
 }
 .slick-dots{
-  bottom: 20px !important;
+  bottom: 50px !important;
 }
 
 .slick-dots li button:before{
