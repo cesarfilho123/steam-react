@@ -2,18 +2,24 @@
     max-width: 70% !important;
 }
 .navbar-light{
-    background:#231D23 !important;
+    background:#0E1b2b !important;
 }
-.navbar-light .navbar-nav .nav-link {
-    color:#fff !important;
+.navbar-light .navbar-nav .nav-link, .text-steam{
+    color:#c7c5c2 !important;
 }
 .c-avatar-user img{
     max-width: 37px;
 }
 
 .icon-bag{
+    color:#c7c5c2 !important;
     font-size: 27px;
 }
 .icon-search{
+    color:#c7c5c2 !important;
     font-size: 21px;
+}
+
+.icon--negative{
+    margin-top: -2px;
 }

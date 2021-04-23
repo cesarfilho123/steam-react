@@ -5,7 +5,7 @@ body {
     sans-serif !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
-  background: #2c252e !important;
+  /* background: #152840 !important; */
 }
 
 code {
@@ -21,16 +21,17 @@ code {
 }
 
 .btn-steam-green {
-  background: transparent;
-  border-color: #C0E35D !important;
-  color: #C0E35D !important;
+  background: #14335a !important;
+  border-color: #14335a !important;
+  color: #fff !important;
 }
 
 .section-hero {
-  height: 60vh;
-  background: linear-gradient(#342E32 40%, #2C252D 90%);
+  height: 80vh;
+  background-image:url(http://demo.gloriathemes.com/wp/cloux/wp-content/uploads/2017/12/nfs-slider.jpg);
   display: flex;
   align-items: center;
+  background-size: cover;
 }
 
 .slick-next:before {
@@ -47,5 +48,12 @@ code {
 }
 
 .section-multigames {
-  background: #2c252e;
+  background: #152840;
+}
+.slick-dots{
+  bottom: 20px !important;
+}
+
+.slick-dots li button:before{
+  font-size: 20px !important;
 }
