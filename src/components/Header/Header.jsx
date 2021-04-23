@@ -44,25 +44,19 @@ function Header() {
                             <a className="nav-link disabled" href="a">Sobre</a>
                         </li>
                     </ul>
+                    <div className="mr-4">
+                        <HiOutlineShoppingBag className="icon-bag" />
+                    </div>
+                    <div className="mr-4">
+                        <BsSearch className="icon-search" />
+                    </div>
                     <div className="container-user-login mr-4">
                         <div className="c-avatar-user d-flex align-items-center ">
                             <img src="/images/batman.png" alt="Bruce Wayne" className="img-fluid" />
-                            <h6 className="pl-2 mt-2 text-white">
+                            <h6 className="pl-2 mt-2 text-steam">
                                 Bruce Wayne
                             </h6>
                         </div>
-
-                    </div>
-                    <div className="mr-4">
-                        <HiOutlineShoppingBag className="text-white icon-bag" />
-                    </div>
-                    <div className="mr-4">
-                        <BsSearch className="text-white icon-search" />
-                    </div>
-                    <div className="">
-                        <button className="btn btn-steam-green">
-                            Get <FaSteam />
-                        </button>
                     </div>
                 </div>
             </nav>
